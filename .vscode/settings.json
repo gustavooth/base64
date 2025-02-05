@@ -1,9 +1,6 @@
 {
   "C_Cpp.default.cStandard": "c23",
-    "C_Cpp.default.includePath": [
-        "${workspaceFolder}/src/**",
-    ],
-    "files.associations": {
-      "type_traits": "c"
-    },
+  "C_Cpp.default.includePath": [
+    "${workspaceFolder}/src/**",
+  ],
 }
