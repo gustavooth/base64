@@ -225,14 +225,14 @@ int main(int cnt, char** args) {
     return 0;
   }
   
-  printf("Model: -encode: Encode base64\n");
-  printf("Model: -decode: Decode base64 to str\n");
+  printf("Model: -encode: Encode input to base64\n");
+  printf("Model: -decode: Decode input to base64\n");
   printf("Option: --verbose: Show bits\n\n");
   if (cnt > 0)
   {
-    printf("Usage:%s <model> <options> <str>\n", args[0]);
+    printf("Usage:%s <model> <options> <input>\n", args[0]);
   }else {
-    printf("Usage:base64 <model> <options> <str>\n");
+    printf("Usage:base64 <model> <options> <input>\n");
   }
   
   return -1;
